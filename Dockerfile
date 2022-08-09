@@ -1,4 +1,4 @@
-FROM node:12.18
+FROM node:16
 WORKDIR /usr/src/message-brandon
 COPY . .
 RUN npm install
